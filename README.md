@@ -26,7 +26,7 @@ Un componente de gráfico de Gantt interactivo, ligero y sin dependencias, cread
 
 Puedes ver el componente en acción en esta demo interactiva:
 
-**[Ver la demo en vivo](https://www.google.com/search?q=https://pereerro.github.io/js-gantt-chart/)**
+**[Ver la demo en vivo](https://pereerro.github.io/js-gantt-chart/)**
 
 ## 🛠️ Cómo Empezar
 
