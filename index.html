@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo del Gráfico Gantt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gráfico Gantt con JavaScript</h1>
+    <div id="gantt-container-wrapper">
+        <div id="gantt-chart-container"></div>
+    </div>
+    <div id="tooltip"></div>
+
+    <script src="gantt.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Aquí puedes pegar tus datos de ejemplo
+            const misTareas = [
+                { id: 'T1', name: 'Tarea con final "fuera de plazo"', start: '2025-07-01', end: '2025-07-20', forecast_end: '2025-07-15', color: '#8B4513' },
+                { id: 'T2', name: 'Tarea con final "en plazo"', start: '2025-07-10', end: '2025-07-25', forecast_end: '2025-07-30', color: '#A0522D' },
+                { id: 'T3', name: 'Tarea normal', start: '2025-08-01', end: '2025-08-10', color: '#D2B48C' }
+            ];
+            const misEventos = [
+                { name: 'Entrega Clave', date: '2025-07-28' }
+            ];
+
+            new GanttChart(misTareas, misEventos, 'gantt-chart-container');
+        });
+    </script>
+</body>
+</html>

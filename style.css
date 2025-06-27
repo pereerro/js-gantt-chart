@@ -1,0 +1,10 @@
+body { font-family: sans-serif; background-color: #f4f4f4; padding: 20px; }
+#gantt-container-wrapper { border: 1px solid #ccc; overflow: auto; resize: both; min-height: 200px; max-height: 80vh; }
+#tooltip { position: absolute; background-color: #333; color: white; padding: 8px; border-radius: 4px; opacity: 0; pointer-events: none; transition: opacity 0.2s; font-size: 12px; max-width: 250px; }
+.gantt-chart .grid-line { stroke: #e0e0e0; stroke-width: 1; }
+.gantt-chart .grid-header { font-size: 10px; fill: #666; }
+.gantt-chart .task-bar:hover { filter: brightness(1.2); }
+.gantt-chart .dependency-line { stroke: #e53e3e; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+.gantt-chart .today-marker { stroke: #d94c4c; stroke-width: 2; stroke-dasharray: 6 3; }
+.gantt-chart .event-marker-line { stroke: #3b82f6; stroke-width: 1.5; }
+.gantt-chart .event-hitbox { stroke: transparent; stroke-width: 10; cursor: pointer; }
