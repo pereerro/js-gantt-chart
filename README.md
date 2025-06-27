@@ -5,9 +5,8 @@
 
 Un componente de gráfico de Gantt interactivo, ligero y sin dependencias, creado con JavaScript puro. Diseñado para ser fácil de integrar y personalizar en cualquier proyecto web.
 
-> **[ INSERTA AQUÍ UNA CAPTURA DE PANTALLA O GIF ANIMADO DEL GRÁFICO EN ACCIÓN ]**
->
-> *Et recomano molt pujar una imatge o, millor encara, un GIF curt que mostri la interactivitat (zoom, tooltips, etc.). Això fa que el projecte sigui molt més atractiu.*
+![image](https://github.com/user-attachments/assets/40b44254-fe9b-40b9-a4bc-6620ecb7fe71)
+
 
 -----
 
@@ -27,9 +26,7 @@ Un componente de gráfico de Gantt interactivo, ligero y sin dependencias, cread
 
 Puedes ver el componente en acción en esta demo interactiva:
 
-**[Ver la demo en vivo](https://www.google.com/search?q=https://TU_USUARIO.github.io/js-gantt-chart/)**
-
-*(Recorda substituir `TU_USUARIO` pel teu nom d'usuari de GitHub i activar GitHub Pages a la configuració del teu repositori)*
+**[Ver la demo en vivo](https://www.google.com/search?q=https://pereerro.github.io/js-gantt-chart/)**
 
 ## 🛠️ Cómo Empezar
 
@@ -127,3 +124,6 @@ Este proyecto está distribuido bajo la Licencia MIT. Esto significa que puedes 
 [Ver el texto completo de la licencia](https://www.google.com/search?q=LICENSE)
 
 -----
+## Agraïments
+
+Este código ha estado desarrollado con la asistencia de Gemini, un modelo de lenguaje de Google.
